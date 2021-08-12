@@ -1,0 +1,23 @@
+let x, y;
+let newX, newY;
+
+function setup() {
+	createCanvas(600, 600);
+	background(0);
+  x = width/2;
+  y = height/2;
+}
+
+function draw() {
+	strokeWeight(0.1);
+	stroke(255);
+	
+	let radius = random(200);
+  let a = random(TWO_PI);
+	
+  newX = width/2 + cos(a)*  radius;
+  newY = height/2 + sin(a) * radius;
+  line(x, y, newX, newY);
+  x = newX;
+  y = newY;
+}

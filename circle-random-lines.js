@@ -12,7 +12,7 @@ function draw() {
   strokeWeight(0.1);
   stroke(255);
 	
-  let radius = random(windowHeight/3);
+  let radius = random(windowHeight/2.5);
   let a = random(TWO_PI);
 	
   newX = width/2 + cos(a)*  radius;

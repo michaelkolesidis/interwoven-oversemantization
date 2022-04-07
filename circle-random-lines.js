@@ -9,10 +9,10 @@ function setup() {
 }
 
 function draw() {
-	strokeWeight(0.1);
-	stroke(255);
+  strokeWeight(0.1);
+  stroke(255);
 	
-	let radius = random(200);
+  let radius = random(windowHeight/2);
   let a = random(TWO_PI);
 	
   newX = width/2 + cos(a)*  radius;

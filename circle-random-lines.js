@@ -2,7 +2,7 @@ let x, y;
 let newX, newY;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth - (0.4*windowWidth/100), windowHeight- (0.4*windowHeight/100));
 	background(0);
   x = width/2;
   y = height/2;

@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  strokeWeight(0.1);
+  strokeWeight(0.12);
   stroke(255);
 
   let radius = random(

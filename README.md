@@ -1,6 +1,6 @@
 <div align=center>
   <h1>Circle Random Lines</h1>
-  <img src="https://github.com/michaelkolesidis/circle-random-lines/blob/main/circle-random-lines-screenshot.png">
+  <img src="./screenshots/circle-random-lines-screenshot.png">
   <h4>A circle created live by random lines. Made with p5.js</h4>
   
 

@@ -35,6 +35,12 @@ A line is drawn from a point in the center of the canvas to a random point locat
 
 
 
+## License
+
+Copyright (c) 2022 Michael Kolesidis<br>
+Licensed under the [GNU General Public License v3.0](https://github.com/michaelkolesidis/webproject-script/blob/main/LICENSE).
+
+
 
 ## Demo
 <img width="580px" src="./screenshots/demo.gif">

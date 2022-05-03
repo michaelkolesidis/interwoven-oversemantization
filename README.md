@@ -49,7 +49,8 @@ A line is drawn from a point in the center of the canvas to a random point locat
 
 ## Related Projects
 
-[3D Cube](https://github.com/michaelkolesidis/3d-cube)
+- [3D Cube](https://github.com/michaelkolesidis/3d-cube)
+- [3D Teddy Bear](https://github.com/michaelkolesidis/3d-teddy-bear)
 
 
 

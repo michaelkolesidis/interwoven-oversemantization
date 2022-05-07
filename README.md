@@ -2,7 +2,7 @@
   <img src="./icons/icon-192x192.png">
   <h1>Circle Random Lines</h1>
 
-  <h3>A circle created live by random lines</h3>
+  <h3>A circle created dynamically by random lines</h3>
   
   <a href="https://circle-random-lines.netlify.app/"><h3>Try me!</h3></a>
 

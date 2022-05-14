@@ -29,8 +29,7 @@
 
 <p>
 
-A colorful three-dimensional cube that rotates to x-axis and the y-axis according to the movement of the cursor inside the window. It is created dynamically on page load, according to window dimensions. 
-
+A colorful three-dimensional cube that rotates to x-axis and the y-axis according to the movement of the cursor inside the window. It is created dynamically on page load, according to window dimensions. Click to switch colors and redraw.
 
 A line is drawn from a point in the center of the canvas to a random point located inside an imaginary circle. Then a new line is drawn from the previous random point to a new random point, still located inside an imaginary circle. The process is repeaded indefinitely and, using trigonometry and magic, a circle starts to form.It is housed in a simple HTML page, with some essential CSS.</p>
 

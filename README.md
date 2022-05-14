@@ -38,7 +38,7 @@ A line is drawn from a point in the center of the canvas to a random point locat
 
 
 ## Demo
-<img width="580px" src="./screenshots/demo.gif">
+<img width="580px" src="./screenshots/circle-random-lines.gif">
 
 
 

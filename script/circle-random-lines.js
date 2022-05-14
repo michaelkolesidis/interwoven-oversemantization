@@ -1,19 +1,21 @@
 let x, y;
 let newX, newY;
+let color1 = 0;
+let color2 = 255;
 
 function setup() {
   createCanvas(
     windowWidth - (0.4 * windowWidth) / 100,
     windowHeight - (0.4 * windowHeight) / 100
   );
-  background(0);
+  background(color1);
   x = width / 2;
   y = height / 2;
 }
 
 function draw() {
   strokeWeight(0.12);
-  stroke(255);
+  stroke(color2);
 
   let radius = random(
     windowHeight > windowWidth ? windowWidth / 2.5 : windowHeight / 2.5
@@ -26,3 +28,11 @@ function draw() {
   x = newX;
   y = newY;
 }
+
+function mouseClicked() {
+  let temp;
+  temp = color1;
+  color1 = color2;
+  color2 = temp;
+  background(color1);
+  }

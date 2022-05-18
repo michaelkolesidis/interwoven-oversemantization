@@ -4,10 +4,7 @@ let color1 = 0;
 let color2 = 255;
 
 function setup() {
-  createCanvas(
-    windowWidth - (0.4 * windowWidth) / 100,
-    windowHeight - (0.4 * windowHeight) / 100
-  );
+  createCanvas(windowWidth, windowHeight);
   background(color1);
   x = width / 2;
   y = height / 2;
@@ -35,4 +32,8 @@ function mouseClicked() {
   color1 = color2;
   color2 = temp;
   background(color1);
+  }
+
+  function windowResized() {
+    resizeCanvas(window.innerWidth, window.innerHeight);
   }

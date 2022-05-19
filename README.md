@@ -33,6 +33,8 @@ A colorful three-dimensional cube that rotates to x-axis and the y-axis accordin
 
 A line is drawn from a point in the center of the canvas to a random point located inside an imaginary circle. Then a new line is drawn from the previous random point to a new random point, still located inside an imaginary circle. The process is repeaded indefinitely and, using trigonometry and magic, a circle starts to form.It is housed in a simple HTML page, with some essential CSS.</p>
 
+<p>Click to reverse colors, double-click to enter fullscreen mode, double-click again (or press ESC) to leave fullscreen mode.</p>
+
 <p>Originally, I created it using <a href="https://processing.org/">Processing</a>, and then I ported it to the web using Processing's JavaScript sibling, p5.js.</p>
 
 

@@ -32,8 +32,28 @@ function mouseClicked() {
   color1 = color2;
   color2 = temp;
   background(color1);
-  }
+}
 
-  function windowResized() {
-    resizeCanvas(window.innerWidth, window.innerHeight);
+function windowResized() {
+  resizeCanvas(window.innerWidth, window.innerHeight);
+}
+
+// Fullscreen mode
+window.addEventListener("dblclick", () => {
+  const fullscreenElement =
+    document.fullscreenElement || document.webkitFullscreenElement;
+
+  if (!fullscreenElement) {
+    if (canvas.requestFullscreen) {
+      canvas.requestFullscreen();
+    } else if (canvas.webkitRequestFullscreen) {
+      canvas.webkitRequestFullscreen();
+    }
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    }
   }
+});

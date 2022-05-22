@@ -58,7 +58,10 @@ A line is drawn from a point in the center of the canvas to a random point locat
 
 ## License
 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Dos-license-logo-white.svg" height="120px" />
 Copyright (c) 2022 Michael Kolesidis<br>
+
 Licensed under the [DOS License](https://github.com/doslicense/license).
 
 

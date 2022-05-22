@@ -59,7 +59,7 @@ A line is drawn from a point in the center of the canvas to a random point locat
 ## License
 
 Copyright (c) 2022 Michael Kolesidis<br>
-Licensed under the [DOS License]([https://github.com/michaelkolesidis/webproject-script/blob/main/LICENSE](https://github.com/doslicense/license)).
+Licensed under the [DOS License](https://github.com/doslicense/license).
 
 
 

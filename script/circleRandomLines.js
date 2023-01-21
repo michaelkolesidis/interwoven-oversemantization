@@ -1,8 +1,21 @@
+/*
+ * Copyright (c) 2023 Michael Kolesidis
+ * GNU Affero General Public License v3.0
+ * https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ */
+
+// Old (initial) point
 let x, y;
+
+// New point
 let newX, newY;
-let color1 = 0;
+
+// Colors
+let color1 = 10;
 let color2 = 255;
 
+// Setup
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(color1);
@@ -10,6 +23,7 @@ function setup() {
   y = height / 2;
 }
 
+// Draw
 function draw() {
   strokeWeight(0.12);
   stroke(color2);
@@ -19,13 +33,14 @@ function draw() {
   );
   let a = random(TWO_PI);
 
-  newX = width / 2 + cos(a) * radius;
-  newY = height / 2 + sin(a) * radius;
+  newX = width / 2 + cos(a) * radius; // will be within circle radius
+  newY = height / 2 + sin(a) * radius; // will be within circle radius
   line(x, y, newX, newY);
   x = newX;
   y = newY;
 }
 
+// Invert colors
 function mouseClicked() {
   let temp;
   temp = color1;
@@ -34,11 +49,12 @@ function mouseClicked() {
   background(color1);
 }
 
+// Resize
 function windowResized() {
   resizeCanvas(window.innerWidth, window.innerHeight);
 }
 
-// Fullscreen mode
+// Fullscreen
 window.addEventListener("dblclick", () => {
   const fullscreenElement =
     document.fullscreenElement || document.webkitFullscreenElement;

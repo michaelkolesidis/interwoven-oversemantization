@@ -1,38 +1,50 @@
-body,
-html {
-  padding: 0;
+* {
   margin: 0;
-  background: rgba(0, 0, 0, 0);
+  padding: 0;
+  color: rgb(235, 235, 235);
+  font-weight: 600;
+  font-size: 1.1rem;
+  user-select: none;
   font-family: sans-serif;
+}
+
+html,
+body {
+  background-color: rgba(20, 20, 20, 0);
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1.3rem;
 }
 
 canvas {
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   z-index: -1;
 }
 
 footer {
-  color: white;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
 p {
-  color: white;
   margin: 1rem;
-  font-size: 1.2rem;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
 }
 
-a,
-a:visited {
-  color: white;
-}
+@media (max-width: 480px) {
+  p {
+    font-size: 0.6rem;
+    margin: 0.5rem;
+  }
 
-#heart {
-  font-size: 1.6rem;
+  a,
+  a:visited {
+    font-size: 0.6rem;
+  }
 }

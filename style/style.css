@@ -6,16 +6,27 @@
   font-size: 1.1rem;
   user-select: none;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 html,
 body {
-  background-color: rgba(20, 20, 20, 0);
+  background-color: rgb(10, 10, 10);
+  cursor: none;
 }
 
 h1 {
-  margin: 1rem;
   font-size: 1.3rem;
+}
+
+h1,
+p {
+  margin: 1rem;
+}
+
+h1,
+footer {
+  transition: opacity 8s ease-in-out;
 }
 
 canvas {
@@ -27,24 +38,21 @@ canvas {
   z-index: -1;
 }
 
-footer {
+#top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  letter-spacing: 0.1em;
+}
+
+#bottom-left {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-p {
-  margin: 1rem;
-}
-
-@media (max-width: 480px) {
-  p {
-    font-size: 0.6rem;
-    margin: 0.5rem;
-  }
-
-  a,
-  a:visited {
-    font-size: 0.6rem;
-  }
+#bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

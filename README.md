@@ -1,15 +1,20 @@
-<div align=center>
-  <img src="./icons/icon-192x192.png">
-  <h1>circle random lines</h1>
+# interwoven oversemantization
 
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/167fe081-b318-4922-b30b-3a7f76724456/deploy-status)](https://app.netlify.com/sites/circle-random-lines/deploys)
+![screenshot](./screenshots/screenshot-01.png)
 
-  <h4>a circle created dynamically by random lines</h4>
-  
-  <h3><a href="https://circle-random-lines.netlify.app/">Visit</a></h3>
-</div>
+![screenshot](./screenshots/screenshot-02.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/167fe081-b318-4922-b30b-3a7f76724456/deploy-status)](https://app.netlify.com/sites/interwoven-oversemantization/deploys)
 
+A circle created dynamically by random lines.
+
+[**Visit**](https://interwoven-oversemantization.netlify.app/)
+
+## Info
+
+- Resets every 10 minutes
+- Resets on click
+- Title and artist's name disappear after 14 seconds
 
 ## Technologies Used
 
@@ -22,40 +27,33 @@
 <img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/html5/html5-plain.svg" height="50px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-
 ## Description
-
-A colorful three-dimensional cube that rotates to x-axis and the y-axis according to the movement of the cursor inside the window. It is created dynamically on page load, according to window dimensions. Click to switch colors and redraw.
 
 A line is drawn from a point in the center of the canvas to a random point located inside an imaginary circle. Then a new line is drawn from the previous random point to a new random point, still located inside an imaginary circle. The process is repeaded indefinitely and, using trigonometry and magic, a circle starts to form.It is housed in a simple HTML page, with some essential CSS.
 
-Click to reverse colors, double-click to enter fullscreen mode, double-click again (or press ESC) to leave fullscreen mode.
-
-Originally, I created it using [Processing](https://processing.org/), and then I ported it to the web using Processing's JavaScript sibling, p5.js.
-
-
-
 ## Demo
-<img width="580px" src="./screenshots/circle-random-lines.gif">
 
-
+![screencast](./screenshots/screencast.gif)
 
 ## Screenshot
-<img src="./screenshots/circle-random-lines-screenshot.png">
 
+![screenshot](./screenshots/screenshot-03.png)
 
+## Disclaimer
 
-## Related Projects
+Copyright (c) 2023 Michael Kolesidis - https://michaelkolesidis.com/
 
-- [fractal mountain](https://github.com/michaelkolesidis/fractal-mountain)
-- [perlin landscape](https://github.com/michaelkolesidis/perlin-landscape)
+I am the sole copyright owner of this Work.
 
+Reproduction of any of the artwork on this website for commercial use
+is not permitted without first receiving written permission from the artist.
+You cannot host, display, distribute or share this Work in any form,
+including physical and digital. You cannot use this Work in any
+commercial or non-commercial product, website or project. You cannot
+sell this Work and you cannot mint an NFTs of it.
 
-
-## License
-
-<a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/AGPLv3_Logo.svg" height="100px" /></a>
-
-Copyright (c) 2023 Michael Kolesidis<br>
-Licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html).
+Under the Copyright Law, it is fair use to reproduce a single copy for personal
+or educational purposes, provided that no changes are made to the content and
+provided that a copyright notice attesting to the content is attached to the
+reproduction. Beyond that, no further copies of works of art may be made or
+distributed on this website without written permission.

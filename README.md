@@ -1,6 +1,6 @@
 # interwoven oversemantization
 
-![screenshot](./screenshots/screenshot-01.png)
+![screenshot](./screenshots/screenshot-01b.png)
 
 ![screenshot](./screenshots/screenshot-02.png)
 

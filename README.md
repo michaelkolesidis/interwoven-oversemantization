@@ -1,8 +1,6 @@
 # interwoven oversemantization
 
-![screenshot](./screenshots/screenshot-01b.png)
-
-![screenshot](./screenshots/screenshot-02.png)
+![screencast](./screenshots/screencast.gif)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/167fe081-b318-4922-b30b-3a7f76724456/deploy-status)](https://app.netlify.com/sites/interwoven-oversemantization/deploys)
 
@@ -29,13 +27,17 @@ A circle created dynamically by random lines.
 
 ## Description
 
-A line is drawn from a point in the center of the canvas to a random point located inside an imaginary circle. Then a new line is drawn from the previous random point to a new random point, still located inside an imaginary circle. The process is repeaded indefinitely and, using trigonometry and magic, a circle starts to form.It is housed in a simple HTML page, with some essential CSS.
+A line is drawn from a point in the center of the canvas to a random point located inside an imaginary circle. Then a new line is drawn from the previous random point to a new random point, still located inside an imaginary circle.
 
-## Demo
+The process is repeaded indefinitely and, using trigonometry and magic, a circle starts to form.
 
-![screencast](./screenshots/screencast.gif)
+It is housed in a simple HTML page, with some essential CSS.
 
-## Screenshot
+## Screenshots
+
+![screenshot](./screenshots/screenshot-01b.png)
+
+![screenshot](./screenshots/screenshot-02.png)
 
 ![screenshot](./screenshots/screenshot-03.png)
 

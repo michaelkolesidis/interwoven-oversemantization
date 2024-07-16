@@ -2,11 +2,7 @@
 
 ![screencast](./screenshots/screencast.gif)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/167fe081-b318-4922-b30b-3a7f76724456/deploy-status)](https://app.netlify.com/sites/interwoven-oversemantization/deploys)
-
 A circle created dynamically by random lines.
-
-[**Visit**](https://interwoven-oversemantization.netlify.app/)
 
 ## Info
 
